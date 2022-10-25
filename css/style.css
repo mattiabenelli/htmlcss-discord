@@ -73,7 +73,7 @@ header{
     justify-content: center;
 }
 footer{
-    background-color: black;
+    background-color: #23272a;
     padding-bottom: 20px;
 }
 .container_footer_1{
@@ -82,35 +82,36 @@ footer{
     padding: 10px 0 30px;
     border-bottom: 1px solid white;
 }
-.col_info, .col_prod, .col_comp, .col_risorse, .col_norme{
-    height: 200px;
-    border: dashed black 1px;
-    background-color: aquamarine;
-}
+
 .col_prod, .col_comp, .col_risorse, .col_norme{
-    width: calc(70% / 4);
+    width: calc(65% / 4);
+    margin-top: 10px;
 }
 .col_info{
-    width: 30%;
-    background-color: salmon;
+    width: 20%;
 }
 .container_footer_2{
-    height: 70px;
     width: 1000px;
     margin: 30px auto;
     padding-top: 10px;
-    background-color: bisque;
     display: flex;
     justify-content: space-between ;
 }
-.col_logo_bottom, .col_registrati{
-    height: 20px;
-    border: dashed black 1px;
-    background-color: burlywood;
+.col_logo_bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+}
+.flex{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 /* STILI */
-ul{
+.link-content ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -203,4 +204,35 @@ ul{
 } 
 .download_tasto_2{
     margin-bottom:  60px;
+}
+.title_info{
+    color: #3161e0;
+    font-size: 20px ;
+    margin-bottom: 20px;
+}
+.language img{
+    width: 20px;
+}
+.language{
+    margin-top: 2px ;
+    color: white;
+}
+.container_footer_1 li{
+    color: white;
+    list-style-type: none;
+    margin: 10px 0;
+}
+.title_content{
+    color: #3161e0;
+    margin-bottom: 15px;
+}
+.logo-content img{
+    width: 10   0%;
+}
+.registrati_button{
+    background-color: #8ea1e1;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
 }
