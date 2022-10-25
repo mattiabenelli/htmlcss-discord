@@ -3,19 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* font-family: 'Whitney', sans-serif; */
 /* Struttura */
 header{
-    background-color: lightblue;
-    height: 70px;
+    background-color: #3161e0;
     display: flex;
     align-items: center;
 }
 .container_header{
-    width: 1000px;
+    width: 80%;
     margin: 0 auto;
-}
-.container{
-    margin: 0 auto;
+    margin-top: 10px;
 }
 .container_img_text{
     width: 1000px;
@@ -30,8 +28,6 @@ header{
 }
 .col_logo, .col_link, .col_login{
     height: 50px;
-    border: dashed black 1px;
-    background-color: burlywood;
 }
 .col_logo, .col_login{
     width: 25%;
@@ -39,8 +35,10 @@ header{
 .col_link{
     width: 50%;
 }
-.blue-container{
-    background-color: blue;
+.image-container{
+    background-image: url("../img/jumbo.png") ;
+    background-size: cover;
+    padding-bottom: 100px;
 }
 .download_container{
     width: 800px;
@@ -48,10 +46,8 @@ header{
 }
 .col_download{
     width: 100%;
-    height: 400px;
-    background-color: violet;
-    border: dashed black 1px;
-    margin: 50px 0;
+    display: flex;
+    justify-content: center;
 }
 .col_img{
     height: 500px;
@@ -116,3 +112,60 @@ footer{
     border: dashed black 1px;
     background-color: burlywood;
 }
+.padding-top-20px{
+    padding-top: 20px;
+}
+/* STILI */
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.login-content{
+    display: flex;
+    justify-content: flex-end;
+}
+.Login{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border-style: none;
+    padding: 5px 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+.link-content{
+    color: white;
+    margin-top: 10px;
+    
+}
+.title_download, .paragraph_download{
+    color: white;
+    margin: 0 auto;
+}
+.title_download{
+    font-size: 30px;
+    margin: 100px 0 40px;
+}
+.paragraph_download{
+    margin: 0 50px;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: center;
+}
+.S_mac, .A_brow{
+    padding: 10px 20px; 
+    border-radius: 20px; 
+}
+.A_brow{
+    background-color: black;
+    color: white;
+}
+.S_mac{
+    color: black;
+    background-color: white;
+    text-align: end;
+}
+
+
+
