@@ -2,13 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Whitney', sans-serif;
 }
-/* font-family: 'Whitney', sans-serif; */
+
 /* Struttura */
 header{
     background-color: #3161e0;
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
 .container_header{
     width: 80%;
@@ -38,7 +40,7 @@ header{
 .image-container{
     background-image: url("../img/jumbo.png") ;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 .download_container{
     width: 800px;
@@ -112,9 +114,7 @@ footer{
     border: dashed black 1px;
     background-color: burlywood;
 }
-.padding-top-20px{
-    padding-top: 20px;
-}
+
 /* STILI */
 ul{
     list-style-type: none;
@@ -155,7 +155,9 @@ ul{
 }
 .S_mac, .A_brow{
     padding: 10px 20px; 
-    border-radius: 20px; 
+    border-radius: 20px;
+    border-style: none;
+    margin: 0 20px; 
 }
 .A_brow{
     background-color: black;
@@ -165,6 +167,9 @@ ul{
     color: black;
     background-color: white;
     text-align: end;
+}
+.download_button{
+    padding-top: 20px;
 }
 
 
