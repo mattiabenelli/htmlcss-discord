@@ -7,7 +7,7 @@
 
 /* Struttura */
 header{
-    background-color: #3161e0;
+    background-color: #255ee9;
     display: flex;
     align-items: center;
     padding-top: 20px;
@@ -55,7 +55,7 @@ header{
     width: 60%;
 }
 .col_text{
-    width: 25%;
+    width: 30%;
 }
 .white-container{
     background-color: white;
@@ -77,7 +77,7 @@ footer{
     padding-bottom: 20px;
 }
 .container_footer_1{
-    width: 1000px;
+    width: 1300px;
     margin: 0 auto;
     padding: 10px 0 30px;
     border-bottom: 1px solid white;
@@ -91,7 +91,7 @@ footer{
     width: 20%;
 }
 .container_footer_2{
-    width: 1000px;
+    width: 1300px;
     margin: 30px auto;
     padding-top: 10px;
     display: flex;
@@ -111,10 +111,13 @@ footer{
 }
 
 /* STILI */
-.link-content ul{
+.logo-content{
+    padding-top: 5px;
+}
+.link-content ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between  ;
 }
 .login-content{
     display: flex;
@@ -124,10 +127,15 @@ footer{
     background-color: white;
     color: black;
     border-radius: 30px;
-    border-style: none;
+    border: 1px solid white;
     padding: 5px 15px;
     text-align: center;
     margin-top: 10px;
+}
+.Login:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
 }
 .link-content{
     color: white;
@@ -139,7 +147,7 @@ footer{
     margin: 0 auto;
 }
 .title_download{
-    font-size: 30px;
+    font-size: 35px;
     margin: 100px 0 40px;
 }
 .paragraph_download{
@@ -151,17 +159,29 @@ footer{
 .S_mac, .A_brow{
     padding: 10px 20px; 
     border-radius: 20px;
-    border-style: none;
     margin: 0 20px; 
 }
 .A_brow{
     background-color: black;
     color: white;
+    border: solid black 1px;
 }
 .S_mac{
     color: black;
     background-color: white;
     text-align: end;
+    border: solid white 1px;
+}
+.A_brow:hover{
+    background-color: darkgray;
+    border: 1px solid darkgray;
+    color: white;
+}
+.S_mac:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    color: white;
 }
 .download_button{
     padding-top: 20px;
@@ -201,7 +221,14 @@ footer{
 .blue.S_mac{
     background-color: #8ea1e1;
     color: white;
+    border: #8ea1e1;;
 } 
+.blue.S_mac:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    color: white;
+}
 .download_tasto_2{
     margin-bottom:  60px;
 }
@@ -234,5 +261,11 @@ footer{
     padding: 10px 20px;
     border-radius: 20px;
     border-style: none;
+    color: white;
+}
+.registrati_button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
     color: white;
 }
